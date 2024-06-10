@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <title>Adel Property</title>
+  </head>
+  <body class="relative box-border h-full w-full list-none font-sans">
+    <header>
+      <div
+        id="nav-popout-menu"
+        class="absolute hidden h-screen w-screen items-start justify-center bg-white"
+      >
+        <button id="closeMenu">
+          <img
+            src="../images/x-regular-36.png"
+            alt="closeMenu"
+            onclick="closeMenu()"
+            class="absolute right-[35px] top-5 cursor-pointer border-none bg-none"
+          />
+        </button>
+        <ul class="mt-40 flex animate-fadeInNow flex-col gap-12 text-center text-2xl">
+          <li>
+            <a href="../home/adel.html" class="hover:underline hover:underline-offset-2">Home</a>
+          </li>
+          <li>
+            <a href="#aboutUs" class="hover:underline hover:underline-offset-2">About us</a>
+          </li>
+          <li>
+            <a href="#ourPartners" class="hover:underline hover:underline-offset-2">Our Partners</a>
+          </li>
+          <li>
+            <a href="projects.html" class="hover:underline hover:underline-offset-2">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="">
+      <article
+        id="art1"
+        class="flex h-screen flex-col items-center justify-center bg-[url('../images/pexels-francesco-ungaro-4322027.jpg')] bg-cover bg-center shadow-overlay"
+      >
+        <button>
+          <img
+            src="../images/menu-regular-36.png"
+            alt="hamburger menu"
+            id="nav-menu"
+            onclick="navMenu()"
+            class="absolute left-5 top-5 max-w-[36px] bg-none"
+          />
+        </button>
+
+        <div class="art1-text animate-fadeInNow text-center text-white">
+          <h2 class="text-clamp font-semibold">Adel Property Developments</h2>
+          <p class="text-clampS">Australias leading commercial property developer</p>
+        </div>
+      </article>
+
+      <article
+        id="aboutUs"
+        class="art2 relative flex flex-col items-start bg-[#1A4548] pb-12 pt-20 text-white"
+      >
+        <div
+          class="aboutUs mx-auto gap-10 min-[900px]:flex min-[1330px]:items-center min-[1530px]:justify-between"
+        >
+          <h2 class="hid2 absolute left-14 top-10 animate-fadeInNow text-5xl">About us:</h2>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player
+            src="https://lottie.host/228ff23a-bf49-4b4d-835d-d35587daedf4/drSYAF5bqx.json"
+            background="##FFFFFF"
+            speed="1"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay
+            direction="1"
+            mode="normal"
+            class="scale-90 self-start"
+          ></lottie-player>
+          <div class="mx-auto mb-10 flex max-w-[31rem] flex-col bg-[#093033] p-10">
+            <h4 class="text-lg font-semibold">
+              Adel Property - Innovating commercial spaces with excellence, from concept to
+              completion, for a brighter business future.
+            </h4>
+
+            <p class="text-base font-semibold">
+              Adel Property is a leading commercial real estate development company, dedicated to
+              creating innovative and sustainable spaces tailored to meet the diverse needs of
+              businesses. With a commitment to excellence, Adel Property transforms visions into
+              reality, delivering exceptional projects that redefine the landscape of modern
+              commerce.
+            </p>
+            <p class="text-base font-semibold">
+              'The team at Adel Property exceeded our expectations with their attention to detail
+              and commitment to quality. Our new commercial space perfectly aligns with our needs,
+              thanks to their expertise and professionalism.'
+            </p>
+          </div>
+          <div
+            class="founder hid2 flex w-1/3 flex-col gap-5 max-[1330px]:hidden min-[1530px]:animate-fadeInNow"
+          >
+            <h3 class="text-4xl font-bold">Adel Nour</h3>
+            <img
+              src="../images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg"
+              alt="Adel Nour"
+              class="max-w-[20rem]"
+            />
+            <p class="w-[21rem] rounded-lg bg-[#093033] p-3 text-lg">
+              Adel Nour, the visionary founder of Adel Property, has led the company to prominence
+              with a commitment to innovative and sustainable property development. His expertise
+              and leadership have driven Adel Property's growth, establishing it as a trusted name
+              in the industry, known for quality and excellence in real estate projects.
+            </p>
+          </div>
+          <div class="projectsMobile relative flex items-center min-[900px]:hidden">
+            <img
+              src="../images/pexels-pixabay-260922 (1).jpg"
+              alt="restaurant"
+              class="mx-auto w-full max-w-[500px] shadow-overlay"
+            />
+            <a
+              href=""
+              class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-clampL text-white"
+              >Projects</a
+            >
+          </div>
+        </div>
+      </article>
+
+      <article
+        id="ourPartners"
+        class="art4 mx-auto my-2 mt-10 flex w-11/12 justify-evenly rounded-lg bg-[#1f4468] p-20 text-center text-white max-[743px]:flex-col max-[743px]:p-5 min-[1020px]:mb-8"
+      >
+        <section class="art4-text mb-20 text-center">
+          <div class="">
+            <h4 class="text-4xl">Our Partners</h4>
+            <p class="mb-10 text-lg">Some brands we're proud to have worked with</p>
+
+            <div class="slider mx-auto w-[170px] overflow-hidden">
+              <div class="slides relative flex gap-4">
+                <input type="radio" name="radio-btn" class="hidden" id="radio1" />
+                <input type="radio" name="radio-btn" class="hidden" id="radio2" />
+                <input type="radio" name="radio-btn" class="hidden" id="radio3" />
+                <input type="radio" name="radio-btn" class="hidden" id="radio4" />
+                <div class="slide first w-min duration-0">
+                  <img
+                    src="../images/mcdonald-s-15-logo-svgrepo-com.svg"
+                    alt="Mcdonalds-Logo"
+                    class="mb-20 inline max-w-[171px]"
+                  />
+                </div>
+                <div class="slide">
+                  <img
+                    src="../images/apple-black-logo-svgrepo-com.svg"
+                    alt="Apple-logo"
+                    class="mb-20 inline max-w-[171px]"
+                  />
+                </div>
+                <div class="slide">
+                  <img
+                    src="../images/under-armour-logo-svgrepo-com.svg"
+                    alt="UnderArmour-logo"
+                    class="mb-20 inline max-w-[171px]"
+                  />
+                </div>
+                <div class="slide">
+                  <img
+                    src="../images/microsoft-logo-svgrepo-com.svg"
+                    alt="Microsoft-logo"
+                    class="mb-20 inline max-w-[171px]"
+                  />
+                </div>
+              </div>
+
+              <div class="navigation-auto absolute -mt-[110px] hidden w-40 justify-center gap-4">
+                <div
+                  class="auto-btn-1 rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></div>
+                <div
+                  class="auto-btn-1 rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></div>
+                <div
+                  class="auto-btn-1 rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></div>
+                <div
+                  class="auto-btn-1 rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></div>
+              </div>
+
+              <div class="navigation-manual absolute -mt-[110px] hidden w-40 justify-center gap-4">
+                <label
+                  for="radio1"
+                  class="manual-btn cursor-pointer rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></label>
+                <label
+                  for="radio2"
+                  class="manual-btn cursor-pointer rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></label>
+                <label
+                  for="radio3"
+                  class="manual-btn cursor-pointer rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></label>
+                <label
+                  for="radio4"
+                  class="manual-btn cursor-pointer rounded-[10px] border-2 border-solid border-black p-[5px] duration-[1s]"
+                ></label>
+              </div>
+            </div>
+            <a
+              class="more-about-us mx-auto w-80 rounded border-2 border-white bg-[#1f4468] px-20 py-4 text-center text-lg text-white"
+              href="about-us.php"
+              >More about us</a
+            >
+          </div>
+          <section class="max-w-[24rem] rounded-lg bg-[#17324d] p-5 text-lg max-[743px]:hidden">
+            <p>
+              Adel Property caters to a diverse clientele including real estate investors,
+              commercial enterprises, and residential homeowners. Known for its innovative designs
+              and sustainable practices, the company attracts clients seeking premium properties and
+              high returns on investment, ensuring personalized services tailored to meet their
+              unique needs and preferences.
+            </p>
+          </section>
+        </section>
+        <section class="min-[743px]:ml-20">
+          <h3 class="text-xl underline underline-offset-4">Testimonials</h3>
+          <div
+            class="testimonial-text mx-auto my-4 w-40 overflow-hidden text-center text-base font-bold"
+          >
+            <ul id="test-ul" class="inline-flex gap-16 duration-500">
+              <li class="test-slides">
+                <p class="main-test-text">
+                  "Adel Property transformed our commercial vision into reality with precision and
+                  professionalism. From concept to completion, their team exhibited unparalleled
+                  dedication, ensuring our project exceeded expectations. Their commitment to
+                  quality and innovation sets them apart, making Adel Property our top choice for
+                  future developments."
+                </p>
+
+                <p id="test-reviewer">Chris Mayor, State Manager NSW & VIC</p>
+                <hr class="mx-auto mt-2 w-40" />
+                <p id="test-client">Mclaren Automotives</p>
+              </li>
+              <li class="test-slides">
+                <p class="main-test-text">
+                  "Adel Property transformed our commercial vision into reality with precision and
+                  professionalism. From concept to completion, their team exhibited unparalleled
+                  dedication, ensuring our project exceeded expectations. Their commitment to
+                  quality and innovation sets them apart, making Adel Property our top choice for
+                  future developments."
+                </p>
+
+                <p id="test-reviewer">James Min, State Manager NSW & VIC</p>
+                <hr class="mx-auto mt-2 w-40" />
+                <p id="test-client">Ferrari</p>
+              </li>
+              <li class="test-slides">
+                <p class="main-test-text">
+                  "Adel Property transformed our commercial vision into reality with precision and
+                  professionalism. From concept to completion, their team exhibited unparalleled
+                  dedication, ensuring our project exceeded expectations. Their commitment to
+                  quality and innovation sets them apart, making Adel Property our top choice for
+                  future developments."
+                </p>
+
+                <p id="test-reviewer">Jess Ang, State Manager NSW & VIC</p>
+                <hr class="mx-auto mt-2 w-40" />
+                <p id="test-client">Porsche</p>
+              </li>
+            </ul>
+            <div class="indicators">
+              <span
+                class="btn active ml-1 mt-6 inline-block h-[15px] w-[15px] cursor-pointer rounded-[15px] bg-white"
+              ></span>
+              <span
+                class="btn ml-1 mt-6 inline-block h-[15px] w-[15px] cursor-pointer rounded-[15px] bg-white"
+              ></span>
+              <span
+                class="btn ml-1 mt-6 inline-block h-[15px] w-[15px] cursor-pointer rounded-[15px] bg-white"
+              ></span>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article class="art5 hid2 max-[1020px]:hidden min-[1020px]:animate-fadeInNow">
+        <div class="feat-projects m-7 justify-center [&>img]:cursor-pointer">
+          <a href="../home/projects.html#art2mobile">
+            <img
+              src="../images/pexels-brett-sayles-1322184.jpg"
+              alt="10 Barrel Brewing"
+              class="site"
+          /></a>
+          <a href="../home/projects.html#art2mobile">
+            <img src="../images/pexels-pixabay-258154.jpg" alt="Shores Resort" class="site" /> </a
+          ><a href="../home/projects.html#art2mobile">
+            <img src="../images/pexels-pixabay-261102.jpg" alt="Crown Sydney" class="site" />
+          </a>
+          <a href="../home/projects.html#art2mobile">
+            <img src="../images/pexels-erik-mclean-4062473.jpg" alt="Parramatta BMW" class="site" />
+          </a>
+          <a href="../home/projects.html#fart2mobile">
+            <img src="../images/pexels-essow-k-936722.jpg" alt="Salesforce Tower" class="site" />
+          </a>
+        </div>
+        <button class="rounded bg-[#1f4468] p-2">
+          <a class="see-more-projects mx-auto text-lg text-white" href="projects.html"
+            >See more projects</a
+          >
+        </button>
+      </article>
+      <article
+        class="flex max-w-full flex-col justify-center gap-6 bg-[url('../images/pexels-francesco-ungaro-4322027.jpg')] bg-cover bg-no-repeat p-5 text-white shadow-overlay"
+      >
+        <p class="mx-auto text-4xl">Let's work together</p>
+        <a
+          href="../home/projects.html#contactForm"
+          class="mx-auto rounded-xl border-2 p-2 text-clampS text-white"
+          >Contact us</a
+        >
+      </article>
+
+      <footer
+        class="flex items-center gap-2 bg-black p-6 pt-2 text-white max-[950px]:justify-center max-[770px]:flex-col min-[770px]:gap-6"
+      >
+        <div class="inline-flex items-center gap-2">
+          <img src="../images/logo.jpg" alt="AP logo" width="45rem" class="rounded-full" />
+          <h2>Adel Property</h2>
+        </div>
+        <p>180 George St, Sydney NSW 2000</p>
+        <div class="mb-3 ml-1 mt-2 flex gap-2 [&>*]:underline">
+          <button>Home</button><button>About</button><button>Projects</button
+          ><button>Contact</button>
+        </div>
+        <p>© Adel Property Developments</p>
+      </footer>
+    </section>
+    <script src="../script.js"></script>
+    <script>
+      let btn = document.getElementsByClassName('btn')
+      let slide = document.getElementById('test-ul')
+
+      btn[0].onclick = function () {
+        slide.style.transform = 'translateX(0px)'
+        // Upon clicking, the for loop is run, it checks for the i (indices of the btn clicked (1-3) and performs the removal of the 'active' class from the other indices)
+        for (i = 0; i < 3; i++) {
+          btn[i].classList.remove('active')
+        }
+        // below we are adding the 'active' classlist on default before the for loop is taken into account
+        this.classList.add('active')
+      }
+      btn[1].onclick = function () {
+        slide.style.transform = 'translateX(-225px)'
+        for (i = 0; i < 3; i++) {
+          btn[i].classList.remove('active')
+        }
+        this.classList.add('active')
+      }
+      btn[2].onclick = function () {
+        slide.style.transform = 'translateX(-450px)'
+        for (i = 0; i < 3; i++) {
+          btn[i].classList.remove('active')
+        }
+        this.classList.add('active')
+      }
+    </script>
+  </body>
+</html>
