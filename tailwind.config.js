@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const purgecss = require('@fullhuman/postcss-purgecss')
 module.exports = {
-  content: ['./home/*.{html,js}'],
+  content: ['./*.{html,js}'],
   theme: {
     extend: {
       fontSize: {

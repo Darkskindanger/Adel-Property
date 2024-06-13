@@ -12,13 +12,6 @@
   );
 }
 
-#art1 {
-  background-image: url('./images/pexels-francesco-ungaro-4322027.jpg');
-}
-#contactUs {
-  background-image: url('./images/pexels-francesco-ungaro-4322027.jpg');
-}
-
 /* Projects page*/
 
 @keyframes glow {
@@ -42,10 +35,6 @@
       0 0 7px #04aa6d,
       0 0 7.5px #04aa6d;
   }
-}
-
-#projectPageArt1 {
-  background-image: url('./images/pexels-harun-tan-3980364.jpg');
 }
 
 .valid {
@@ -192,7 +181,6 @@ br {
   grid-template-columns: repeat(5, var(--column-size));
 }
 .site {
-  width: var(--site-size);
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 100vw;

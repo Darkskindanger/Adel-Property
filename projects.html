@@ -26,11 +26,13 @@
             <a href="index.html" class="hover:underline hover:underline-offset-2">Home</a>
           </li>
           <li>
-            <a href="about -us.html" class="hover:underline hover:underline-offset-2">About us</a>
+            <a href="index.html#aboutUs" class="hover:underline hover:underline-offset-2"
+              >About us</a
+            >
           </li>
           <li>
-            <a href="contact-form.html" class="hover:underline hover:underline-offset-2"
-              >Enquiries</a
+            <a href="index.html#ourPartners" class="hover:underline hover:underline-offset-2"
+              >Our Partners</a
             >
           </li>
           <li>
@@ -41,7 +43,7 @@
     </header>
     <article
       id="projectPageArt1"
-      class="art1 flex h-screen flex-col items-center z-40 justify-start bg-cover bg-center bg-no-repeat text-gray-100 shadow-overlay"
+      class="art1 flex h-screen bg-[url('images/city.webp')] flex-col items-center z-40 justify-start bg-cover bg-center bg-no-repeat text-gray-100 shadow-overlay"
     >
       <button>
         <img
@@ -74,60 +76,92 @@
                     savory smoked meats and craft beers, it has become a local
                     favorite, combining classic flavors with a vibrant,
                     welcoming atmosphere."
-          data-imgUrl="./images/pexels-brett-sayles-1322184.jpg"
+          data-imgUrl="images\10barrels.webp"
           data-price="$2m"
           data-time="13 months"
           data-location="Sydney"
         >
           <img
-            src="./images/pexels-brett-sayles-1322184.jpg"
-            alt="10 Barrel Brewing"
-            class="w-max"
+            src="images\10barrels.webp"
+            alt="10 Barrel Brewing "
+            height="200px"
+            width="150px"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div
           class="item item2 animate-scrollLeftAnimation"
           data-name="Shores Resort"
           data-description="Shores Resort, A luxurious hotel resort in Queensland, developed by Adel Property, offers an idyllic escape with stunning views, world-class amenities, and exceptional service. Renowned for its exquisite design and attention to detail, it provides guests with an unparalleled experience of comfort and elegance in a tropical paradise."
-          data-imgUrl="./images/pexels-pixabay-258154.jpg"
+          data-imgUrl="images\shoresResort.webp"
           data-price="$8m"
           data-time="18 months"
           data-location="Gold Coast"
         >
-          <img src="./images/pexels-pixabay-258154.jpg" class="w-max" alt="Shores Resort" />
+          <img
+            src="images\shoresResort.webp"
+            class="w-max"
+            alt="Shores Resort"
+            height="200px"
+            width="150px"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div
           class="item item3 animate-scrollLeftAnimation"
           data-name="Crown Sydney"
           data-description="Crown Hotel, a premier casino resort in Sydney, built by Adel Property, combines luxury accommodation with world-class gaming, dining, and entertainment. Known for its opulent design and exceptional service, it offers an unparalleled experience, making it a top destination for leisure and business travelers."
-          data-imgUrl="./images/pexels-pixabay-261102.jpg"
+          data-imgUrl="images\crownSydney.webp"
           data-price="$80m"
           data-time="48 months"
           data-location="Sydney"
         >
-          <img src="./images/pexels-pixabay-261102.jpg" class="w-max" alt="Crown Sydney" />
+          <img
+            src="images\crownSydney.webp"
+            height="200px"
+            width="150px"
+            loading="lazy"
+            decoding="async"
+            alt="Crown Sydney"
+          />
         </div>
         <div
           class="item item4 animate-scrollLeftAnimation"
           data-name="Parramatta BMW"
           data-description="The BMW dealership in Parramatta, developed by Adel Property, showcases a sleek, modern design, reflecting the luxury and precision of the BMW brand. With state-of-the-art facilities and exceptional customer service, it offers an unparalleled automotive experience, catering to discerning car enthusiasts and prospective buyers."
-          data-imgUrl="./images/pexels-erik-mclean-4062473.jpg"
+          data-imgUrl="images\bmw.webp"
           data-price="$3m"
           data-time="13 months"
           data-location="Sydney"
         >
-          <img src="./images/pexels-erik-mclean-4062473.jpg" alt="Parramatta BMW" class="w-max" />
+          <img
+            src="images\bmw.webp"
+            alt="Parramatta BMW"
+            height="200px"
+            width="150px"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div
           class="item item5 animate-scrollLeftAnimation"
           data-name="Salesforce Tower"
           data-description="The Salesforce Tower in Sydney, constructed by Adel Property, stands as an iconic landmark with its cutting-edge design and sustainable features. This premier office building exemplifies modern architecture and innovation, offering top-tier amenities and fostering a vibrant business community in the heart of the city."
-          data-imgUrl="./images/pexels-essow-k-936722.jpg"
+          data-imgUrl="images\salesforceTower.webp"
           data-price="$50m"
           data-time="34 months"
           data-location="Sydney"
         >
-          <img src="./images/pexels-essow-k-936722.jpg" class="w-max" alt="Salesforce Tower" />
+          <img
+            src="images\salesforceTower.webp"
+            height="200px"
+            width="150px"
+            loading="lazy"
+            decoding="async"
+            alt="Salesforce Tower"
+          />
         </div>
       </section>
     </article>
@@ -177,7 +211,7 @@
           </div>
         </section>
       </section>
-      <img src="./images/pexels-arts-1453781.jpg" alt="pretrol station" class="hid delay-300" />
+      <img src="images\gasStation.webp" alt="pretrol station" class="hid delay-300" />
     </article>
 
     <article class="flex items-center justify-around">
@@ -241,7 +275,14 @@
       class="flex items-center gap-2 bg-black p-6 pt-2 text-white max-[950px]:justify-center max-[770px]:flex-col min-[770px]:gap-6"
     >
       <div class="inline-flex items-center gap-2">
-        <img src="./images/logo.jpg" alt="AP logo" width="45rem" class="hid rounded-full" />
+        <img
+          src="./images/logo.png"
+          alt="AP logo"
+          width="45px"
+          loading="lazy"
+          decoding="async"
+          class="rounded-full"
+        />
         <h2>Adel Property</h2>
       </div>
       <p>180 George St, Sydney NSW 2000</p>
